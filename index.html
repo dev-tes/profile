@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3ce167c893.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">Tesleem Amuda's Portfolio</div>
+            <ul class="nav-links" id="myLinks">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+              </a>
+        </div>
+    
+        <!-- Hero section -->
+    
+        <div class="hero-section">
+            <div class="hero-content-heading">
+                <img src="https://avatars.githubusercontent.com/u/58847828?v=4" alt="Tesleem Amuda">
+                <h3>Tesleem Amuda</h3>
+                <p>An iOS and Flutter Developer with great communication, writing and listening skills. 
+                    <br> Skilled in Swift Programming Language, Dart, version control, Firebase, Jira, Trello, among others. 
+                    <br> Obsessed with detail and quality. Hardworking and ready to learn and improve on new and existing skills.
+                    <br> Enjoy using simple and elegant solutions for every problem.
+                </p>
+            </div>
+            <div class="hero-content-btn">
+                <a href="https://www.linkedin.com/in/tesleemamuda/">Learn More</a>
+            </div>
+        </div>
+    
+        <!-- sub-hero section -->
+        <div class="hero-background">
+            <div class="background">
+                <h4 id="experience">Experience</h4>
+                <h5>iOS Developer</h5>
+                <p>Decagon (April 2021 - Present)</p>
+                <h5>iOS Developer</h5>
+                <p>Dilmak Solutions Ventures (July 2020 - April 2021)</p>
+                <h5>Junior iOS Developer</h5>
+                <p>Windray Systems (October 2019 - June 2020)</p>
+            </div>
+        </div>
+        <div class="snapshot-team">
+            <h2 id="projects">Projects</h2>
+        </div>
+        <div class="snapshot-box">
+            <div class="snapshot-box-content">
+                <div class="box1">
+                    <h5>AppStore Apps</h5>
+                    <ul class="AppStore-Link">
+                        <li>
+                            <a href="https://apps.apple.com/ng/app/mintyn/id1470644607">Mintyn App</a>
+                        </li>
+                        <li>
+                            <a href=" https://apps.apple.com/us/app/nigeria-property-centre/id1125813120">NPC App</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h5>iOS Apps Demo</h5>
+                    <ul class="AppStore-Link">
+                        <li>
+                            <a href="https://drive.google.com/drive/folders/1Pu4avnTs3hrNx6X9fsTRy2E2uh4sTzjW?usp=sharing">Take a tour</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h5>Flutter Apps Demo</h5>
+                    <ul class="AppStore-Link">
+                        <li>
+                            <a href="https://drive.google.com/drive/folders/1XqaJ3tmQK5EXGm1RVwKfOnQM6cdUsJBf?usp=sharing">Take a tour</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h5>Others</h5>
+                    <ul class="AppStore-Link">
+                        <li>
+                            <a href="https://github.com/dev-tes">Take a tour</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer section -->
+        <div class="footer">
+            <div class="footer-content">
+                <div id="contact" class="contact">
+                    <h4>Reach Out</h4>
+                    <p><a class="button1" href="mailto:tesleem.amuda@gmail.com">send mail to Tesleem</a></p>
+                    <p><a class="button1" href="tel:+2349032890587"> call +234 9032890587</a></p>
+                </div>
+            </div>
+            <h6>Copyright &copy; 2021 Zuri Training.</h6>
+        </div>
+    </div>
+    </div>
+ 
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
