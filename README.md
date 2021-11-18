@@ -1,3 +1,3 @@
 # Personal profile
 
-https://zuri-responsive-design-task-alpha.vercel.app/
+https://profile-c63fatx7s-tesweb.vercel.app/
