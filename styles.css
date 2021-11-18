@@ -484,9 +484,15 @@ div.footer h6 {
     div.footer-content {
         text-align: center;
     }
-    div.contact h5 {
-        padding: 10rem;
-        background: #fff;
+    div.footer-content a {
+        background: #E44C65;
+        text-decoration: none;
+        color: #f0f0f0;
+        font-size: 0.8rem;
+        padding: 5px 5px;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        margin-bottom: 5rem;
     }
     .footer-textarea {
         display: flex;
