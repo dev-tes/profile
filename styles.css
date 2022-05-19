@@ -38,9 +38,10 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #304353;
-    background: #fff;
+    color: #fff;
+    /* background: #304353; */
     padding: 0.5rem;
+    text-decoration: underline;
 } 
 
 div.hero-section {
@@ -153,7 +154,6 @@ div.snapshot-box {
 
 div.snapshot-box-content {
     display: flex;
-    justify-content: space-between;
 }
 
 div.box1 {
