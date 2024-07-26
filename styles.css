@@ -125,7 +125,7 @@ div.background h4 {
 div.background p {
     color: #A6A5AA;
     padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     font-size: 0.8rem;
     letter-spacing: 2px;
@@ -157,7 +157,7 @@ div.snapshot-box-content {
 
 div.box1 {
     background: #304353;
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 220px;
     height: 230px;
     margin: 10px;
